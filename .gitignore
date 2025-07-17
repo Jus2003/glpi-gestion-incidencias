@@ -1,0 +1,21 @@
+# Archivos de configuración sensibles
+config/config_db.php
+config/config_db_slave.php
+
+# Archivos temporales
+files/_cache/
+files/_sessions/
+files/_tmp/
+files/_uploads/
+files/_log/
+files/_pictures/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Backups locales
+*.sql
+backups/
+
